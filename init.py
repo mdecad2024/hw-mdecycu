@@ -10,8 +10,8 @@ config_dir = _curdir + "/config/"
 class Init(object):
     # uwsgi as static class variable, can be accessed by Init.uwsgi
     uwsgi = False
-    site_title = "cad_hw"
-    ip = "127.0.0.1"
+    site_title = "41223199_cad"
+    ip = "120.113.99.64"
     dynamic_port = 9444
     static_port = 8444
     def __init__(self):
